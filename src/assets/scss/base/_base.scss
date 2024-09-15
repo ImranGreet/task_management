@@ -1,0 +1,35 @@
+// _base.scss
+
+.container {
+  width: 100%;
+}
+
+@media (min-width: $small-screen-max) {
+  .container {
+    max-width: $small-screen-max;
+  }
+}
+
+@media (min-width: $medium-screen-max) {
+  .container {
+    max-width: $medium-screen-max;
+  }
+}
+
+@media (min-width: $large-screen-max) {
+  .container {
+    max-width: $large-screen-max;
+  }
+}
+
+@media (min-width: $extra-large-screen-max) {
+  .container {
+    max-width: $extra-large-screen-max;
+  }
+}
+
+@media (min-width: $xxl-screen-max) {
+  .container {
+    max-width: $xxl-screen-max;
+  }
+}
