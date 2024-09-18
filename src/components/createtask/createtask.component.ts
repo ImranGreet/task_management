@@ -24,7 +24,7 @@ export class CreatetaskComponent {
  prescribedMedicine:Task[] =[];
  addTask(){
   const newTask: Task = {
-    id: this.prescribedMedicine.length + 1, // Incremental id
+    id: this.prescribedMedicine.length + 1,
     title: '',
     status: 'pending',
     initialStartDate: new Date(),
